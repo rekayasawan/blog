@@ -69,11 +69,21 @@
           <a
             href="https://nuxtjs.org"
             target="_blank"
-            class="text-green-500 hover:underline"
+            class="text-green-700 hover:underline"
+            rel="noreferrer"
             aria-label="nuxt documentation"
             >Nuxt documentation</a
           >, whether you are new or have previous experience with the
           framework.<br />
+        </p>
+        <p class="mt-3 text-gray-600">
+          Coba juga ke halaman
+          <nuxt-link
+            to="/tentang"
+            class="text-green-700 hover:underline"
+            rel="noreferrer"
+            >Tentang</nuxt-link
+          >
         </p>
         <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
           To get started, remove
@@ -112,6 +122,7 @@
           href="https://twitter.com/nuxt_js"
           target="_blank"
           aria-label="nuxt twitter"
+          rel="noreferrer"
           ><svg
             class="w-6 h-6 text-gray-600 hover:text-gray-800"
             xmlns="http://www.w3.org/2000/svg"
