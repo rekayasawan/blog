@@ -6,12 +6,13 @@ export default {
   head: {
     title: 'rekayasawan',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'id'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'jurnalnya rekayasawan perangkat lunak' },
+      { hid: 'keywords', name: 'keywords', content: 'software, engineering, rekayasawan, perangkat lunak, web, api, javascript, golang' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
